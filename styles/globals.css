@@ -1,0 +1,60 @@
+html,
+body,
+:root {
+    /* height: 100%; */
+}
+
+body {
+    background-color: #ebeef5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('/font/Roboto-Bold.ttf');
+    /*Thêm các thuộc tính khác của font như font-weight và font-style nếu cần*/
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.position_r {
+    position: relative;
+}
+
+.show_sidebar {
+    display: block;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #4c5bd4;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #747ece;
+}
